@@ -80,11 +80,17 @@ Part 1's `dim_order` already exists at one-row-per-order grain, which made it te
 ### 1. Executive Overview
 Top-line delivery KPIs, an order-stage funnel, delivery-time trend, and on-time rate by state — the 30-second summary of how reliably Olist delivers.
 
+![Executive Overview](images/page1_executive_overview.png)
+
 ### 2. Delay & Timing Analysis
 A deeper look at when and where delays happen — delay distribution, a delay-by-state map, on-time rate by product category, and delivery time by day of week.
 
+![Delay & Timing Analysis](images/page2_delay_timing_analysis.png)
+
 ### 3. Seller & Freight Performance
 Seller-level reliability and freight cost analysis, including a freight-vs-weight comparison across sellers and a direct test of whether multi-seller orders perform worse than single-seller ones.
+
+![Seller & Freight Performance](images/page3_seller_freight_performance.png)
 
 All three pages share a synced filter panel (Year, State, Category) and include both auto-generated statistical highlights (Power BI Smart Narrative) and hand-authored analyst takeaways.
 
@@ -106,6 +112,7 @@ All three pages share a synced filter panel (Year, State, Category) and include 
 /olist-logistics-dashboard
 ├── README.md
 ├── sql/
+│   ├── 00_staging_prep.sql    — duplicates stg_orders, fixes placeholder dates
 │   ├── 01_schema.sql          — fact_deliveries + bridge table DDL
 │   ├── 02_dim_date_extend.sql — dim_date range extension
 │   └── 03_load_facts.sql      — fact/bridge table population scripts
