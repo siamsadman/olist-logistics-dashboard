@@ -1,6 +1,6 @@
 # Olist E-Commerce — Logistics & Delivery Performance Dashboard
 
-A 3-page Power BI dashboard analyzing delivery timing, delay patterns, and seller/freight performance for Olist, a Brazilian multi-vendor e-commerce marketplace. Built end-to-end from raw CSVs — data cleaning, star schema design, DAX modeling, and dashboard design. Second in a 3-part portfolio series on the Olist dataset ([Part 1: Sales & Revenue Performance](https://github.com/siamsadman/olist-sales-dashboard) . [Part 3: Customer Experience & Satisfaction](https://github.com/siamsadman/olist-customer-satisfaction-dashboard)).
+A 3-page Power BI dashboard analyzing delivery timing, delay patterns, and seller/freight performance for Olist, a Brazilian multi-vendor e-commerce marketplace. Built end-to-end from raw CSVs - data cleaning, dimensional model design, DAX modeling, and dashboard design. Second in a 3-part portfolio series on the Olist dataset ([Part 1: Sales & Revenue Performance](https://github.com/siamsadman/olist-sales-dashboard) · [Part 3: Customer Satisfaction & Reviews](https://github.com/siamsadman/olist-customer-satisfaction-dashboard)).
 
 **[.pbix Download ▸](https://github.com/siamsadman/olist-logistics-dashboard/blob/main/dashboard/olist_logistics_dashboard.pbix)**
 
